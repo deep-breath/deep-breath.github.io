@@ -1575,12 +1575,6 @@ var UnityObject2 = function (config) {
 				jDiv
 					.css( "width", "100%" )
 					.css( "height", "200px" )
-					.css( "background", "#f9f8e6")
-					.css( "background", "rgba(231,228,157,.25)")
-					.css( "border-color", "#fcfbf1")
-					.css( "border-color", "rgba(231,228,157,.15)")
-					.css( "border-style", "solid")
-					.css( "border-width", "5x")
 					.css( "color", "#fff")
 					.css( "color", "rgba(#fff,.65)")
 					.css( "text-align", "left")
@@ -1590,7 +1584,7 @@ var UnityObject2 = function (config) {
 				;
 
 				var shownMessage = 
-				"<img src='https://files.unity3d.com/UnityObject2/resources/other_browser.jpg' style='float: left; margin-right: 15px;' /><br>" +
+				"<img src='https://files.unity3d.com/UnityObject2/resources/other_browser.jpg' style='border: 0; float: left; margin-right: 15px;' /><br>" +
 					"<div style='overflow:hidden; position: relative; width: 240px; margin-top: 10px; text-align: center'>" +
 						"<div style='height:202px; display:inline-block; vertical-align:middle;'></div>" +
 						"<div style='display:inline-block;'>" +
