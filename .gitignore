@@ -1,0 +1,7 @@
+# Ignore docs files
+css/app.css.map
+css/app.scss
+css/bourbon
+css/bourbon/*
+css/neat
+css/neat/*
