@@ -15,8 +15,8 @@
   font-family: 'secundary-sans';
   src: url("../fonts/raleway/Raleway-Regular.ttf"); }
 
-$mobile: 768px;
-$sm-mobile: 608px;
+$mobile: 640px;
+$sm-mobile: 480px;
 
 @import "bourbon/bourbon";
 @import "neat/neat";
@@ -61,11 +61,15 @@ h1, h2, h3, h4, h5, h6 {
 /* line 58, /Users/jackie/deepbreath.github.io/css/style.scss */
 .next {
   width: 100%;
-  height: 100%; 
+    position: relative;
 }
   /* line 62, /Users/jackie/deepbreath.github.io/css/style.scss */
   .next.about {
     background: #58cee3; 
+}
+
+  .next.features {
+    background: white; 
 }
   /* line 69, /Users/jackie/deepbreath.github.io/css/style.scss */
   .next.contact {
@@ -84,25 +88,32 @@ header {
         }
     
     ul{
-        display: inline-block;
-        margin-bottom: 5px;
-        float: right;
+        
+        @media screen and (min-width: ($mobile+1)) {
+            float: right;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
         
         @media screen and (max-width: ($mobile)) {
             margin-top: 20px;
+            float: none;
+            display: block;
         }
         
         @media screen and (max-width: ($sm-mobile)) {
             display: block;
             float: none;
+            text-align: left;
             margin: auto;
             margin-top: 5px;
             margin-bottom: 5px;
+            
         }
     }
     
     .logo-top{
-        display: inline-block;
+        display: block;
         width: 75px;
         float: left;
         padding: 5px;
@@ -125,7 +136,7 @@ header {
   header ul {
     font-family: 'secundary-sans';
     padding: 0;
-    text-align: right; }
+    text-align: center; }
   /* line 82, /Users/jackie/deepbreath.github.io/css/style.scss */
   header ul li {
     display: inline; }
@@ -158,8 +169,10 @@ section {
   background: url("../img/cellphone.png") no-repeat;
 
     float: left;
-    @media screen and (max-width: $mobile) {
+    @media screen and (max-width: $sm-mobile) {
        display: block;
+        float: none;
+        margin: 5px -40px;
     }
   }
   /* line 113, /Users/jackie/deepbreath.github.io/css/style.scss */
@@ -182,9 +195,32 @@ section {
     width: 70%;
     margin: auto;
 }
+
 .sec-wrap{
     width: 70%;
     margin: auto;
+    height: 400px;
+    
+    @media screen and (max-width: $sm-mobile) {
+        width: 100%;
+        height: 600px;
+    }
+    
+    @media screen and (max-width: $mobile) {
+        height: 500px;
+    }
+    
+    
+    &.white-bg{
+        h1{
+            color: rgb(49, 163, 185);
+        }
+        
+        .sec-content{
+            border-color: #ebf8fa;
+            background: #87ccd8;
+        }
+    }
 }
 .sec-left{
     float: left;
@@ -289,6 +325,10 @@ footer{
 
 .fold{
     min-height: 775px;
+    
+    @media screen and (max-width: $sm-mobile) {
+        min-height: 800px;
+    }
 }
 
 .info{
@@ -303,12 +343,14 @@ footer{
 
 .sec-content{
     padding: 70px;
-    border: 1px solid #fff;
+    background: #fff;
     text-align: center;
     margin: auto;
     width: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #58a7b5;
     
     @media screen and (max-width: $mobile) {
         padding: 30px;

@@ -71,60 +71,68 @@ h1, h2, h3, h4, h5, h6 {
 /* line 62, /Users/jackie/deep-breath.github.io/css/app.scss */
 .next {
   width: 100%;
-  height: 100%; }
+  position: relative; }
 
 /* line 62, /Users/jackie/deepbreath.github.io/css/style.scss */
 /* line 67, /Users/jackie/deep-breath.github.io/css/app.scss */
 .next.about {
   background: #58cee3; }
 
-/* line 69, /Users/jackie/deepbreath.github.io/css/style.scss */
 /* line 71, /Users/jackie/deep-breath.github.io/css/app.scss */
+.next.features {
+  background: white; }
+
+/* line 69, /Users/jackie/deepbreath.github.io/css/style.scss */
+/* line 75, /Users/jackie/deep-breath.github.io/css/app.scss */
 .next.contact {
   background: rgba(88, 206, 227, 0.3); }
 
 /* line 73, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 75, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 79, /Users/jackie/deep-breath.github.io/css/app.scss */
 header {
   padding: 5px 20px;
   margin-bottom: 50px; }
-  @media screen and (min-width: 769px) {
-    /* line 75, /Users/jackie/deep-breath.github.io/css/app.scss */
+  @media screen and (min-width: 641px) {
+    /* line 79, /Users/jackie/deep-breath.github.io/css/app.scss */
     header {
       margin-bottom: 70px; } }
-  @media screen and (max-width: 608px) {
-    /* line 75, /Users/jackie/deep-breath.github.io/css/app.scss */
+  @media screen and (max-width: 480px) {
+    /* line 79, /Users/jackie/deep-breath.github.io/css/app.scss */
     header {
       margin-bottom: 0; } }
-  /* line 86, /Users/jackie/deep-breath.github.io/css/app.scss */
-  header ul {
-    display: inline-block;
-    margin-bottom: 5px;
-    float: right; }
-    @media screen and (max-width: 768px) {
-      /* line 86, /Users/jackie/deep-breath.github.io/css/app.scss */
-      header ul {
-        margin-top: 20px; } }
-    @media screen and (max-width: 608px) {
-      /* line 86, /Users/jackie/deep-breath.github.io/css/app.scss */
-      header ul {
-        display: block;
-        float: none;
-        margin: auto;
-        margin-top: 5px;
-        margin-bottom: 5px; } }
-  /* line 104, /Users/jackie/deep-breath.github.io/css/app.scss */
+  @media screen and (min-width: 641px) {
+    /* line 90, /Users/jackie/deep-breath.github.io/css/app.scss */
+    header ul {
+      float: right;
+      display: inline-block;
+      margin-bottom: 5px; } }
+  @media screen and (max-width: 640px) {
+    /* line 90, /Users/jackie/deep-breath.github.io/css/app.scss */
+    header ul {
+      margin-top: 20px;
+      float: none;
+      display: block; } }
+  @media screen and (max-width: 480px) {
+    /* line 90, /Users/jackie/deep-breath.github.io/css/app.scss */
+    header ul {
+      display: block;
+      float: none;
+      text-align: left;
+      margin: auto;
+      margin-top: 5px;
+      margin-bottom: 5px; } }
+  /* line 115, /Users/jackie/deep-breath.github.io/css/app.scss */
   header .logo-top {
-    display: inline-block;
+    display: block;
     width: 75px;
     float: left;
     padding: 5px; }
-    @media screen and (min-width: 769px) {
-      /* line 104, /Users/jackie/deep-breath.github.io/css/app.scss */
+    @media screen and (min-width: 641px) {
+      /* line 115, /Users/jackie/deep-breath.github.io/css/app.scss */
       header .logo-top {
         display: none; } }
-    @media screen and (max-width: 608px) {
-      /* line 104, /Users/jackie/deep-breath.github.io/css/app.scss */
+    @media screen and (max-width: 480px) {
+      /* line 115, /Users/jackie/deep-breath.github.io/css/app.scss */
       header .logo-top {
         display: block;
         float: none;
@@ -133,34 +141,34 @@ header {
         margin-bottom: 15px; } }
 
 /* line 76, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 125, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 136, /Users/jackie/deep-breath.github.io/css/app.scss */
 header ul {
   font-family: 'secundary-sans';
   padding: 0;
-  text-align: right; }
+  text-align: center; }
 
 /* line 82, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 130, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 141, /Users/jackie/deep-breath.github.io/css/app.scss */
 header ul li {
   display: inline; }
 
 /* line 86, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 133, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 144, /Users/jackie/deep-breath.github.io/css/app.scss */
 header ul li a {
   color: white;
   padding: 10px 20px;
   text-decoration: none; }
 
 /* line 92, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 138, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 149, /Users/jackie/deep-breath.github.io/css/app.scss */
 header ul li a:hover {
   background-color: rgba(88, 206, 227, 0.2); }
 
 /* line 97, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 142, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 153, /Users/jackie/deep-breath.github.io/css/app.scss */
 section {
   padding: 20px; }
-  /* line 145, /Users/jackie/deep-breath.github.io/css/app.scss */
+  /* line 156, /Users/jackie/deep-breath.github.io/css/app.scss */
   section h1 {
     text-transform: uppercase;
     text-align: center;
@@ -168,104 +176,123 @@ section {
     text-shadow: 2px 2px rgba(0, 0, 0, 0.2); }
 
 /* line 105, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 155, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 166, /Users/jackie/deep-breath.github.io/css/app.scss */
 .cellphone {
   width: 301px;
   height: 600px;
   background: url("../img/cellphone.png") no-repeat;
   float: left; }
-  @media screen and (max-width: 768px) {
-    /* line 155, /Users/jackie/deep-breath.github.io/css/app.scss */
+  @media screen and (max-width: 480px) {
+    /* line 166, /Users/jackie/deep-breath.github.io/css/app.scss */
     .cellphone {
-      display: block; } }
+      display: block;
+      float: none;
+      margin: 5px -40px; } }
 
 /* line 113, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 166, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 179, /Users/jackie/deep-breath.github.io/css/app.scss */
 .cellphone #unityPlayer {
   padding: 50px 17px;
   color: white;
   display: block; }
 
 /* line 118, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 173, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 186, /Users/jackie/deep-breath.github.io/css/app.scss */
 .info {
   width: 50%;
   float: right; }
-  @media screen and (max-width: 768px) {
-    /* line 173, /Users/jackie/deep-breath.github.io/css/app.scss */
+  @media screen and (max-width: 640px) {
+    /* line 186, /Users/jackie/deep-breath.github.io/css/app.scss */
     .info {
       display: none; } }
 
-/* line 181, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 194, /Users/jackie/deep-breath.github.io/css/app.scss */
 .fold-header {
   width: 70%;
   margin: auto; }
 
-/* line 185, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 199, /Users/jackie/deep-breath.github.io/css/app.scss */
 .sec-wrap {
   width: 70%;
-  margin: auto; }
+  margin: auto;
+  height: 400px; }
+  @media screen and (max-width: 480px) {
+    /* line 199, /Users/jackie/deep-breath.github.io/css/app.scss */
+    .sec-wrap {
+      width: 100%;
+      height: 600px; } }
+  @media screen and (max-width: 640px) {
+    /* line 199, /Users/jackie/deep-breath.github.io/css/app.scss */
+    .sec-wrap {
+      height: 500px; } }
+  /* line 215, /Users/jackie/deep-breath.github.io/css/app.scss */
+  .sec-wrap.white-bg h1 {
+    color: #31a3b9; }
+  /* line 219, /Users/jackie/deep-breath.github.io/css/app.scss */
+  .sec-wrap.white-bg .sec-content {
+    border-color: #ebf8fa;
+    background: #87ccd8; }
 
-/* line 189, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 225, /Users/jackie/deep-breath.github.io/css/app.scss */
 .sec-left {
   float: left; }
-  @media screen and (max-width: 768px) {
-    /* line 189, /Users/jackie/deep-breath.github.io/css/app.scss */
+  @media screen and (max-width: 640px) {
+    /* line 225, /Users/jackie/deep-breath.github.io/css/app.scss */
     .sec-left {
       display: block;
       float: none; } }
 
-/* line 197, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 233, /Users/jackie/deep-breath.github.io/css/app.scss */
 .sec-right {
   float: right; }
-  @media screen and (max-width: 768px) {
-    /* line 197, /Users/jackie/deep-breath.github.io/css/app.scss */
+  @media screen and (max-width: 640px) {
+    /* line 233, /Users/jackie/deep-breath.github.io/css/app.scss */
     .sec-right {
       display: block;
       float: none; } }
 
 /* line 124, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 206, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 242, /Users/jackie/deep-breath.github.io/css/app.scss */
 .logo {
   margin: auto;
   display: block;
   padding: 50px; }
 
 /* line 134, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 212, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 248, /Users/jackie/deep-breath.github.io/css/app.scss */
 .credits {
   padding: 0 15px;
   text-align: right; }
 
 @media screen and (max-width: 768px) {
   /* line 134, /Users/jackie/deepbreath.github.io/css/style.scss */
-  /* line 217, /Users/jackie/deep-breath.github.io/css/app.scss */
+  /* line 253, /Users/jackie/deep-breath.github.io/css/app.scss */
   .credits {
     background: #74c9c6; } }
 
 /* line 143, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 221, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 257, /Users/jackie/deep-breath.github.io/css/app.scss */
 a:link {
   color: #ffffff;
   text-decoration: none; }
 
 /* line 147, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 226, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 262, /Users/jackie/deep-breath.github.io/css/app.scss */
 a:visited {
   color: #ffffff; }
 
 /* line 150, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 230, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 266, /Users/jackie/deep-breath.github.io/css/app.scss */
 a:hover {
   color: rgba(255, 255, 255, 0.5); }
 
 /* line 153, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 234, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 270, /Users/jackie/deep-breath.github.io/css/app.scss */
 a:active {
   color: #ffffff; }
 
 /* line 155, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 239, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 275, /Users/jackie/deep-breath.github.io/css/app.scss */
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea,
 input[type="color"]:active, input[type="date"]:active, input[type="datetime"]:active, input[type="datetime-local"]:active, input[type="email"]:active, input[type="month"]:active, input[type="number"]:active, input[type="password"]:active, input[type="search"]:active, input[type="tel"]:active, input[type="text"]:active, input[type="time"]:active, input[type="url"]:active, input[type="week"]:active, input:not([type]):active, textarea:active {
   border: 2px solid #ffffff;
@@ -275,7 +302,7 @@ input[type="color"]:active, input[type="date"]:active, input[type="datetime"]:ac
   border-radius: 8px; }
 
 /* line 163, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 248, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 284, /Users/jackie/deep-breath.github.io/css/app.scss */
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
 input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover {
   border: 2px solid #58cee3;
@@ -285,7 +312,7 @@ input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hove
   border-radius: 8px; }
 
 /* line 171, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 258, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 294, /Users/jackie/deep-breath.github.io/css/app.scss */
 button, input[type="button"], input[type="reset"], input[type="submit"],
 button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus,
 button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
@@ -298,12 +325,12 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
   border-radius: 8px; }
 
 /* line 183, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 268, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 304, /Users/jackie/deep-breath.github.io/css/app.scss */
 button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
   border: 2px solid #ffffff; }
 
 /* line 191, /Users/jackie/deepbreath.github.io/css/style.scss */
-/* line 272, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 308, /Users/jackie/deep-breath.github.io/css/app.scss */
 .btn {
   border: 2px solid #58cee3;
   background: #58cee3;
@@ -315,17 +342,21 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
   max-width: 200px; }
 
 /*# sourceMappingURL=style.css.map */
-/* line 284, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 320, /Users/jackie/deep-breath.github.io/css/app.scss */
 footer {
   padding: 20px;
   background: #363636;
   color: white; }
 
-/* line 290, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 326, /Users/jackie/deep-breath.github.io/css/app.scss */
 .fold {
   min-height: 775px; }
+  @media screen and (max-width: 480px) {
+    /* line 326, /Users/jackie/deep-breath.github.io/css/app.scss */
+    .fold {
+      min-height: 800px; } }
 
-/* line 294, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 334, /Users/jackie/deep-breath.github.io/css/app.scss */
 .info {
   text-align: center;
   font-size: 26px;
@@ -333,21 +364,23 @@ footer {
   color: #ffffff;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.2); }
 
-/* line 304, /Users/jackie/deep-breath.github.io/css/app.scss */
+/* line 344, /Users/jackie/deep-breath.github.io/css/app.scss */
 .sec-content {
   padding: 70px;
-  border: 1px solid #fff;
+  background: #fff;
   text-align: center;
   margin: auto;
   width: 400px;
   margin-top: 20px;
-  margin-bottom: 20px; }
-  @media screen and (max-width: 768px) {
-    /* line 304, /Users/jackie/deep-breath.github.io/css/app.scss */
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #58a7b5; }
+  @media screen and (max-width: 640px) {
+    /* line 344, /Users/jackie/deep-breath.github.io/css/app.scss */
     .sec-content {
       padding: 30px;
       width: 300px; } }
-  /* line 318, /Users/jackie/deep-breath.github.io/css/app.scss */
+  /* line 360, /Users/jackie/deep-breath.github.io/css/app.scss */
   .sec-content .fa {
     font-size: 125px;
     display: block;
